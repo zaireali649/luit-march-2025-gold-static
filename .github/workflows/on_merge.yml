@@ -1,7 +1,9 @@
 name: Deploy Static Website
 
 on:
-  pull_request:
+  push:
+    branches:
+      - main
 
 jobs:
   deploy_website:
