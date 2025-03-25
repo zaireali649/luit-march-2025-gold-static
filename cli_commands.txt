@@ -1,0 +1,1 @@
+aws s3 cp index.html s3://luit-march-2025-gold-beta --acl public-read
